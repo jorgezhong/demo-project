@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/netty-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/all" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/bom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/buffer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-dns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-haproxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-http2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-memcache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-mqtt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-smtp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-socks" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-stomp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/codec/src/test/resources/io/netty/handler/codec/xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/dev-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/handler-proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/microbench" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/resolver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/resolver-dns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/tarball" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/testsuite" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/testsuite-autobahn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/testsuite-http2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/testsuite-osgi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/testsuite-shading" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport-native-epoll" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport-native-kqueue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport-native-unix-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport-native-unix-common-tests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport-rxtx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport-sctp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../netty-4.1/transport-udt" charset="UTF-8" />
+  </component>
+</project>
