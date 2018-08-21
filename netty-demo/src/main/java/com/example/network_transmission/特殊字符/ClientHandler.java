@@ -1,4 +1,4 @@
-package com.example.stickingAndUnpacking.specialCharacter;
+package com.example.network_transmission.特殊字符;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -7,12 +7,12 @@ import io.netty.util.ReferenceCountUtil;
 public class ClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
-    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+    public void channelActive(ChannelHandlerContext ctx) {
         System.out.println("client channel active... ");
     }
 
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+    public void channelRead(ChannelHandlerContext ctx, Object msg) {
         try {
             String response = (String) msg;
             System.out.println("Client: " + response);
@@ -22,12 +22,13 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
     }
 
     @Override
-    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+    public void channelReadComplete(ChannelHandlerContext ctx) {
     }
 
 
     @Override
-    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+        cause.printStackTrace();
         ctx.close();
     }
 }

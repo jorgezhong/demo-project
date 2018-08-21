@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/netty-demo/pom.xml" />
         <option value="$PROJECT_DIR$/../netty-4.1/codec/src/test/resources/io/netty/handler/codec/xml/sample-04.xml" />
         <option value="$PROJECT_DIR$/../netty-4.1/pom.xml" />
+        <option value="$PROJECT_DIR$/Test/pom.xml" />
       </list>
     </option>
   </component>

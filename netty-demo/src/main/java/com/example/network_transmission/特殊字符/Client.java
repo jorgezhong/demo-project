@@ -1,6 +1,5 @@
-package com.example.stickingAndUnpacking.specialCharacter;
+package com.example.network_transmission.特殊字符;
 
-import com.example.helloword.ClientHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -13,6 +12,9 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 
+/**
+ * @author Administrator
+ */
 public class Client {
 
     public static void main(String[] args) throws Exception {
