@@ -250,10 +250,10 @@
       <find>imageMatchFace</find>
       <find>Client</find>
       <find>close</find>
-      <find>server receive order : e specific language governing permissions and</find>
-      <find>message = Unpooled.buffer(req.length); message.writeBytes(req); ctx.writeAndFlush(message);</find>
+      <find />
+      <find />
       <find>Unless</find>
-      <find>server receive order :</find>
+      <find />
       <find>GeneratedMessageV3</find>
       <find>IdleStateEvent</find>
       <find>fireUserEventTriggered</find>
@@ -370,7 +370,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="399" />
     <option name="y" value="42" />
     <option name="width" value="1524" />
@@ -1376,7 +1376,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8 (1)</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1401,7 +1401,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8 (1)</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1413,7 +1413,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
