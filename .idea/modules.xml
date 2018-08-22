@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../netty-4.1/all/netty-all.iml" filepath="$PROJECT_DIR$/../netty-4.1/all/netty-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/../netty-4.1/bom/netty-bom.iml" filepath="$PROJECT_DIR$/../netty-4.1/bom/netty-bom.iml" />
       <module fileurl="file://$PROJECT_DIR$/../netty-4.1/buffer/netty-buffer.iml" filepath="$PROJECT_DIR$/../netty-4.1/buffer/netty-buffer.iml" />
