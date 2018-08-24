@@ -42,6 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/../netty-4.1/transport-rxtx/netty-transport-rxtx.iml" filepath="$PROJECT_DIR$/../netty-4.1/transport-rxtx/netty-transport-rxtx.iml" />
       <module fileurl="file://$PROJECT_DIR$/../netty-4.1/transport-sctp/netty-transport-sctp.iml" filepath="$PROJECT_DIR$/../netty-4.1/transport-sctp/netty-transport-sctp.iml" />
       <module fileurl="file://$PROJECT_DIR$/../netty-4.1/transport-udt/netty-transport-udt.iml" filepath="$PROJECT_DIR$/../netty-4.1/transport-udt/netty-transport-udt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" filepath="$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" />
     </modules>
   </component>
 </project>

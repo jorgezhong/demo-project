@@ -42,14 +42,10 @@
         <module name="netty-transport-rxtx" />
         <module name="netty-transport-sctp" />
         <module name="netty-transport-udt" />
+        <module name="zookeeper-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="compatibility-more-protos" target="1.6" />
-      <module name="compatibility-protos" target="1.6" />
-      <module name="compatibility-test-deps" target="1.5" />
-      <module name="compatibility-test-suite" target="1.5" />
-      <module name="compatibility-tests" target="1.6" />
       <module name="netty-all" target="1.6" />
       <module name="netty-bom" target="1.5" />
       <module name="netty-buffer" target="1.6" />
@@ -90,10 +86,7 @@
       <module name="netty-transport-rxtx" target="1.6" />
       <module name="netty-transport-sctp" target="1.6" />
       <module name="netty-transport-udt" target="1.6" />
-      <module name="protobuf-java" target="1.7" />
-      <module name="protobuf-java-util" target="1.7" />
-      <module name="protobuf-parent" target="1.5" />
-      <module name="Test" target="1.8" />
+      <module name="zookeeper-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
