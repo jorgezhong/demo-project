@@ -1,11 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="">
+    <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="thread-demo&#10;jvm-demo&#10;mq-demo&#10;proxy-demo&#10;reflect-demo&#10;serializable-demo">
+      <change afterPath="$PROJECT_DIR$/thread-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/bigdata/socket/GetDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/bigdata/socket/ServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/bigdata/socket/ServiceServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/bigdata/socket/ServiceServerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/main/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/main/TestBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/main/TestBlockingQueueConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/main/TestBlockingQueueProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/producer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/jvm/demo/TestDeadThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/jvm/demo/TestMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/jvm/demo/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/jvm/outofmemory/DirectMemoryOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/jvm/outofmemory/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/jvm/outofmemory/JavaVMStackOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/jvm/outofmemory/JavaVMStackSOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/queue/ConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/queue/ConsumerTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/queue/ProducerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/queue/ProducerTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/topic/ConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/topic/ConsumerTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/topic/ProducerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/topic/ProducerTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mySerializable/DesTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mySerializable/SerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mySerializable/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/ExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/TaskCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/TaskRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/TestPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/ThreadPoolWithRunable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/ThreadPoolWithcallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyInterruptibly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyReentrantReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MySynchronizedReadWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyTryLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MySynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithImpliment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/volatiletest/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/MyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/PersonInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/ProxyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/action/ProxySaleAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/action/SaleAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/proxyclass/ProxyBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/service/IBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/service/impl/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/MyReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/IBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestServerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-demo/src/test/java/com/example/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-demo/src/test/java/com/example/demo/SimpleZkClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/test/java/com/example/DemoApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
     <ignored path="$PROJECT_DIR$/../netty-4.1/target/" />
@@ -62,6 +139,9 @@
     <ignored path="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/core/target/" />
     <ignored path="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/compatibility_tests/v2.5.0/more_protos/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-demo/target/" />
+    <ignored path="zookeeper-demo/.mvn/" />
+    <ignored path="$PROJECT_DIR$/thread-demo/target/" />
+    <ignored path="thread-demo/.mvn/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +151,11 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="false" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/demo_project$DistributedServer.ic" NAME="DistributedServer Coverage Results" MODIFIED="1535089748746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -87,7 +172,70 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1220">
+              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyInterruptibly.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyInterruptibly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLockTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#817#1229#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyTryLock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyTryLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+              <folding>
+                <element signature="e#328#337#0" expanded="true" />
+                <element signature="e#439#961#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#974#1497#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,30 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case2/server/ServerHandler.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case2/client/HelloWorldClient.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case2/client/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case2/client/ClientChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case2/server/ServerChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case2/DelimiterBasedFrameDecoder" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/Message.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewDecoder.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewServerHandler.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/client/NewClient.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/client/NewClientChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/client/NewEncoder.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/LengthFieldBasedFrameDecoder" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/client/NewClientHandler.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewServerChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewServer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/Msg.proto" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/core/src/test/java/com/google/protobuf/AnyTest.java" />
-        <option value="$PROJECT_DIR$/netty-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/MessageProto.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/server/ProtoBufServer.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/client/ProtoBufClient.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeRespProto.java" />
-        <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeResp.proto" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeReq.proto" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeReqProto.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/server/ProtoBufServerHandler.java" />
@@ -168,6 +292,30 @@
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/http_mode/client/HttpDownloadHandler.java" />
         <option value="$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/http_mode/client/HttpDownloadClient.java" />
         <option value="/app1" />
+        <option value="$PROJECT_DIR$/zookeeper-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/SimpleZkClient.java" />
+        <option value="$PROJECT_DIR$/zookeeper-demo/src/test/java/com/example/demo/SimpleZkClient.java" />
+        <option value="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedServer.java" />
+        <option value="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedClient.java" />
+        <option value="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/readme" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/itcast/bigdata/socket/ServiceClient.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/bigdata/socket/ServiceClient.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/volatiletest/TestVolatile.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyTryLock.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyReentrantReadWriteLock.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MySynchronized.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithExtends.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithImpliment.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/service/impl/Boss.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/MyReflect.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/MyReflect.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/action/SaleAction.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/action/ProxySaleAction.java" />
+        <option value="$PROJECT_DIR$/thread-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/main/Test.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyLockTest.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyInterruptibly.java" />
+        <option value="$PROJECT_DIR$/thread-demo/src/main/java/java/util/Test.java" />
       </list>
     </option>
   </component>
@@ -223,8 +371,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="149" />
-    <option name="y" value="4" />
+    <option name="x" value="399" />
+    <option name="y" value="42" />
     <option name="width" value="1524" />
     <option name="height" value="1000" />
   </component>
@@ -313,23 +461,36 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zookeeper-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zookeeper-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +502,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (1)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zookeeper-demo/.mvn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-demo/.mvn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -354,16 +515,19 @@
       <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\network_transmission\sticky_dismantling_bag\problem" />
       <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\stickingAndUnpacking" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.demo.JBossMarshalling" />
       <recent name="com.example.demo.mytest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\code\demo-project\thread-demo\src\test\java\com\example" />
+      <recent name="D:\Workspace\code\demo-project\thread-demo\src\main\java\com" />
       <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\protobuf\proto" />
       <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\network_transmission\sticky_dismantling_bag\solution" />
       <recent name="D:\Workspace\code\demo-project\Test\src\main\java\com\example\demo" />
-      <recent name="D:\Workspace\code\demo-project\netty-demo\src\test\java\com\example\demo\mytest" />
-      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\拆包和粘包问题\编解码\JBossMarshalling" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -383,67 +547,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileUploadClient">
+  <component name="RunManager" selected="Application.MyTryLock">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="FileUploadClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.file.upload.general_mode.client.FileUploadClient" />
-      <module name="netty-demo" />
+    <configuration name="DistributedClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DistributedClient" />
+      <module name="zookeeper-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.file.upload.general_mode.client.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FileUploadServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.file.upload.general_mode.server.FileUploadServer" />
-      <module name="netty-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="DistributedServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DistributedServer" />
+      <module name="zookeeper-demo" />
+      <option name="PROGRAM_PARAMETERS" value="host1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.file.upload.general_mode.server.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HeartBeatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.heartbeat.server.HeartBeatServer" />
-      <module name="netty-demo" />
+    <configuration name="MyLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mythread.thread.lock.MyLockTest" />
+      <module name="thread-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.heartbeat.server.*" />
+          <option name="PATTERN" value="com.example.mythread.thread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HeartBeatsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.heartbeat.client.HeartBeatsClient" />
-      <module name="netty-demo" />
+    <configuration name="MyTryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mythread.thread.lock.MyTryLock" />
+      <module name="thread-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.heartbeat.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="HeartBeatsClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.heartbeat.client.HeartBeatsClient2" />
-      <module name="netty-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.heartbeat.client.*" />
+          <option name="PATTERN" value="com.example.mythread.thread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SimpleZkClient.setData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.SimpleZkClient" />
+      <option name="METHOD_NAME" value="setData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -466,8 +643,12 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.helloword.DemoApplication" />
     </configuration>
     <configuration name="DemoApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <module name="zookeeper-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.DemoApplication" />
+    </configuration>
+    <configuration name="DemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thread-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.DemoApplication" />
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="netty-demo" />
@@ -499,19 +680,20 @@
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
-      <item itemvalue="Application.HeartBeatServer" />
-      <item itemvalue="Application.HeartBeatsClient" />
-      <item itemvalue="Application.HeartBeatsClient2" />
-      <item itemvalue="Application.FileUploadServer" />
-      <item itemvalue="Application.FileUploadClient" />
+      <item itemvalue="Application.DistributedServer" />
+      <item itemvalue="Application.DistributedClient" />
+      <item itemvalue="JUnit.SimpleZkClient.setData" />
+      <item itemvalue="Spring Boot.DemoApplication (3)" />
+      <item itemvalue="Application.MyTryLock" />
+      <item itemvalue="Application.MyLockTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileUploadClient" />
-        <item itemvalue="Application.FileUploadServer" />
-        <item itemvalue="Application.HeartBeatsClient2" />
-        <item itemvalue="Application.HeartBeatServer" />
-        <item itemvalue="Application.HeartBeatsClient" />
+        <item itemvalue="Application.MyTryLock" />
+        <item itemvalue="Application.MyLockTest" />
+        <item itemvalue="Application.DistributedClient" />
+        <item itemvalue="Application.DistributedServer" />
+        <item itemvalue="JUnit.SimpleZkClient.setData" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +722,8 @@
       <workItem from="1534898121743" duration="25193000" />
       <workItem from="1534990070466" duration="27190000" />
       <workItem from="1535076940221" duration="296000" />
-      <workItem from="1535077895455" duration="458000" />
+      <workItem from="1535077895455" duration="9334000" />
+      <workItem from="1535102855800" duration="3763000" />
     </task>
     <task id="LOCAL-00001" summary="调整">
       <created>1534470787570</created>
@@ -577,11 +760,47 @@
       <option name="project" value="LOCAL" />
       <updated>1534933205231</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zookeeper demo">
+      <created>1535078546412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535078546412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleZkClient_testCreate - 2018.08.24 at 11h 26m 28s.xml">
+      <configuration name="SimpleZkClient.testCreate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_testCreate - 2018.08.24 at 11h 28m 32s.xml">
+      <configuration name="SimpleZkClient.testCreate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_testCreate - 2018.08.24 at 11h 30m 06s.xml">
+      <configuration name="SimpleZkClient.testCreate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_getChildren - 2018.08.24 at 11h 31m 48s.xml">
+      <configuration name="SimpleZkClient.getChildren" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_testExist - 2018.08.24 at 11h 32m 05s.xml">
+      <configuration name="SimpleZkClient.testExist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_getData - 2018.08.24 at 11h 47m 39s.xml">
+      <configuration name="SimpleZkClient.getData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_getData - 2018.08.24 at 11h 48m 59s.xml">
+      <configuration name="SimpleZkClient.getData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_deleteZnode - 2018.08.24 at 11h 49m 22s.xml">
+      <configuration name="SimpleZkClient.deleteZnode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleZkClient_setData - 2018.08.24 at 11h 49m 57s.xml">
+      <configuration name="SimpleZkClient.setData" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120661000" />
+    <option name="totallyTimeSpent" value="133300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -597,25 +816,26 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" x="22" y="429" width="1876" height="251" id="Debug" order="3" sideWeight="0.50053304" side_tool="true" weight="0.61624026" />
+      <window_info anchor="bottom" x="22" y="429" width="1876" height="251" id="Debug" order="3" sideWeight="0.50053304" side_tool="true" weight="0.34705228" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32925472" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="13" weight="0.32893157" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49946696" weight="0.6640712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40600666" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" sideWeight="0.41257995" weight="0.84760845" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.40600666" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49946696" visible="true" weight="0.4393771" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.56952167" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.56952167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="ZooKeeper" order="8" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32814237" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32925472" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -657,7 +877,9 @@
     <MESSAGE value="第一次提交的demo" />
     <MESSAGE value="&lt;type&gt;(&lt;scope&gt;): afsd&lt;subject&gt;&#10;&lt;body&gt; // 可省略&#10;&lt;footer&gt; // 可省略" />
     <MESSAGE value="netty demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="netty demo" />
+    <MESSAGE value="zookeeper demo" />
+    <MESSAGE value="thread-demo&#10;jvm-demo&#10;mq-demo&#10;proxy-demo&#10;reflect-demo&#10;serializable-demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread-demo&#10;jvm-demo&#10;mq-demo&#10;proxy-demo&#10;reflect-demo&#10;serializable-demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,7 +897,7 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
@@ -687,341 +909,369 @@
     <option name="tooltip" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/bigdata/socket/ServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MySynchronizedReadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="255" column="11" selection-start-line="255" selection-start-column="11" selection-end-line="255" selection-end-column="11" />
+          <folding>
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/TestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/socket/TestBusiness.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/City.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/socket/TestServerTask.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/socket/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/socket/IBusiness.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/TestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/socket/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/reflect/MyReflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2464">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/IBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewDecoder.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/socket/TestServerTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/client/NewClientChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewServerChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/LengthFieldBasedFrameDecoder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/server/NewServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="80">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case3/model/client/NewClient.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/ProxyPerson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/sticky_dismantling_bag/solution/case2/DelimiterBasedFrameDecoder&amp;&amp;FixedLengthFrameDecoder">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/service/IBoss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="29" selection-start-line="29" selection-end-line="30" />
+        <state relative-caret-position="120">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/core/src/test/java/com/google/protobuf/AnyTest.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/service/impl/Boss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/Msg.proto" />
-    <entry file="file://$PROJECT_DIR$/netty-demo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/proxyclass/ProxyBoss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/MessageProto.java" />
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeResp.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeRespProto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="417" column="10" selection-start-line="417" selection-start-column="10" selection-end-line="417" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/server/ProtoBufServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/action/SaleAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/client/ProtoBufClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/server/ProtoBufServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/client/ProtoBufClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/client/ClientChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/server/ServerChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeReqProto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/protobuf/proto/SubscribeReq.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="120" column="53" lean-forward="true" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/server/HeartBeatServerChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/心跳机制">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="50" column="139" selection-start-line="50" selection-start-column="139" selection-end-line="50" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Develop/apache-maven-3.3.9/repository/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Develop/apache-maven-3.3.9/repository/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="341" column="24" lean-forward="true" selection-start-line="341" selection-start-column="24" selection-end-line="341" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Develop/apache-maven-3.3.9/repository/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final-sources.jar!/io/netty/handler/codec/string/StringDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/client/HeartBeatClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/client/HeartBeatsClientChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/client/HeartBeatsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/server/HeartBeatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/client/HeartBeatsClient2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/heartbeat/server/HeartBeatServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/network_transmission/编解码和序列化/JBossMarshalling/MarshallingCodeCFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="221" column="52" selection-start-line="221" selection-start-column="52" selection-end-line="221" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/general_mode/server/FileUploadServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/general_mode/server/FileUploadServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/general_mode/client/FileUploadClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/http_mode/server/HttpChannelInitlalizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/http_mode/server/HttpChannelHandler.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/volatiletest/TestVolatile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/http_mode/client/HttpDownloadHandler.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithImpliment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="80">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/http_mode/server/HttpFileServer.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithExtends.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/http_mode/client/HttpDownloadClient.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MySynchronized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="52" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/test/java/com/example/demo/mytest/ClientHandler.java" />
-    <entry file="file://$PROJECT_DIR$/Test/src/main/java/com/example/demo/DemoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/Test/src/test/java/com/example/demo/DemoApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/general_mode/client/FileUploadClient.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="52" column="72" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="72" />
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/reflect/MyReflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/java/com/example/file/upload/FileUploadFile.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/proxy/action/ProxySaleAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="80">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/topic/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/topic/ConsumerTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/queue/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/topic/ProducerTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/queue/ConsumerTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mq/queue/ProducerTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/blockingqueue/main/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyTryLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+          <folding>
+            <element signature="e#328#337#0" expanded="true" />
+            <element signature="e#439#961#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#974#1497#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#817#1229#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/java/util/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/java/util/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyInterruptibly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1067,7 +1317,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1079,7 +1329,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>netty-all</last-edited>
+          <last-edited>thread-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1092,7 +1342,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited />
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1104,7 +1354,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
