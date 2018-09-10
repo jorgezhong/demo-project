@@ -1,35 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="Osmorc" url="file://$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/core" />
-    <file type="Osmorc" url="file://$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/util" />
-    <file type="Osmorc" url="file://$USER_HOME$/Downloads/protobuf-master/protobuf-master/src" />
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/netty-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/../netty-4.1/codec/src/test/resources/io/netty/handler/codec/xml/sample-04.xml" />
-        <option value="$PROJECT_DIR$/../netty-4.1/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/compatibility_tests/v2.5.0/pom.xml" />
-        <option value="$PROJECT_DIR$/zookeeper-demo/pom.xml" />
         <option value="$PROJECT_DIR$/thread-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-demo/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/compatibility_tests/v2.5.0/more_protos/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/compatibility_tests/v2.5.0/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/compatibility_tests/v2.5.0/protos/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/compatibility_tests/v2.5.0/tests/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/core/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/pom.xml" />
-        <option value="$USER_HOME$/Downloads/protobuf-master/protobuf-master/java/util/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

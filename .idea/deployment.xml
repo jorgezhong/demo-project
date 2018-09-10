@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="192.168.0.247">
+  <component name="PublishConfigData" serverName="192.168.2.215">
     <serverData>
-      <paths name="192.168.0.247">
+      <paths name="192.168.2.215">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$/../netty-4.1/bom" web="/" />
+            <mapping deploy="/home/jorge" local="$PROJECT_DIR$/zookeeper-demo" web="/" />
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
