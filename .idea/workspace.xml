@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo1/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo1/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo1/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo2/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo2/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo2/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo3/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo3/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo3/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo3/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo3/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/Quackable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/fly/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/fly/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/fly/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/quack/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/quack/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/quack/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/quack/Squeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/duck/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/duck/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/duck/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/duck/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/duck/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/duck/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/fly/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/fly/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/fly/FlyRocketPowered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/fly/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/quack/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/quack/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/quack/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/quack/Squeak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
     <ignored path="$PROJECT_DIR$/../netty-4.1/target/" />
@@ -108,6 +63,10 @@
     <ignored path="$PROJECT_DIR$/thread-demo/target/" />
     <ignored path="thread-demo/.mvn/" />
     <ignored path="$PROJECT_DIR$/design-pattern/target/" />
+    <ignored path="design-pattern/.mvn/" />
+    <ignored mask="*.cmd" />
+    <ignored path="design-pattern/mvnw" />
+    <ignored mask="*.gitignore" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +98,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/design-pattern/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="200">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
@@ -148,8 +107,8 @@
       <file leaf-file-name="DesignPatternApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/DesignPatternApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MySynchronized.java" />
         <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithExtends.java" />
         <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/DemoApplication.java" />
         <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/me/LockDemo.java" />
@@ -241,6 +199,7 @@
         <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/duck/Duck.java" />
         <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/Test.java" />
         <option value="$PROJECT_DIR$/design-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/DesignPatternApplication.java" />
       </list>
     </option>
   </component>
@@ -345,6 +304,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -803,7 +766,7 @@
       <workItem from="1536031521147" duration="3472000" />
       <workItem from="1536051437473" duration="45000" />
       <workItem from="1536627024250" duration="26627000" />
-      <workItem from="1536716473769" duration="15937000" />
+      <workItem from="1536716473769" duration="16243000" />
     </task>
     <task id="LOCAL-00001" summary="调整">
       <created>1534470787570</created>
@@ -882,7 +845,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536718156607</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="增加设计模式模块">
+      <created>1536747897725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1536747897726</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增加设计模式模块">
+      <created>1536748012152</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536748012152</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -918,14 +895,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240719000" />
+    <option name="totallyTimeSpent" value="241025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.57063407" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.31716418" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.31716418" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Remote Host" order="9" weight="0.32995737" />
@@ -941,11 +918,11 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="13" sideWeight="0.43017057" weight="0.516129" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" visible="true" weight="0.43159065" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" weight="0.2914349" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.24471635" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.2769744" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -998,7 +975,8 @@
     <MESSAGE value="zookeeper demo" />
     <MESSAGE value="thread-demo&#10;jvm-demo&#10;mq-demo&#10;proxy-demo&#10;reflect-demo&#10;serializable-demo" />
     <MESSAGE value="改了文件夹名字" />
-    <option name="LAST_COMMIT_MESSAGE" value="改了文件夹名字" />
+    <MESSAGE value="增加设计模式模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加设计模式模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1028,9 +1006,6 @@
     <option name="tooltip" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/demo1/MallardDuck.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/demo1/RedheadDuck.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1283,7 +1258,7 @@
             <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Methods</Category>
-            <Category />
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1426,17 +1401,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/DesignPatternApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="200">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
@@ -1507,7 +1489,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited />
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1519,7 +1501,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
