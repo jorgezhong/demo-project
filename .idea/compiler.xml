@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo (1)" />
-        <module name="demo (2)" />
-        <module name="demo (3)" />
+        <module name="netty" />
+        <module name="thread" />
+        <module name="zookeeper" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="protobuf-java-util" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

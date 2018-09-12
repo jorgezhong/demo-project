@@ -1,4 +1,0 @@
-即对象序列化技术, 目的是为了实现对象的网络传输和本地持久化
-如果使用java(jdk)的序列化, 码流较大. 因此多用Marshalling, Kyro(基于Protobuf)
-
-下面的例子, 使用编解码传输javabean(Marshalling的javabean需要实现serializable), 并将message进行gzip压缩
