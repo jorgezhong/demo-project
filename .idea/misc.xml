@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/netty-demo/pom.xml" />
         <option value="$PROJECT_DIR$/thread-demo/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/pom.xml" />
       </list>
     </option>
   </component>
