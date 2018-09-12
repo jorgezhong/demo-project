@@ -4,20 +4,7 @@
     <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/LockDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/TestPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/TestPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyInterruptibly.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyInterruptibly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyReentrantReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyReentrantReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MySynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MySynchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithExtends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo/src/test/java/com/example/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/CompletableFutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-demo/src/main/java/com/example/demo/DistributedClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
     <ignored path="$PROJECT_DIR$/../netty-4.1/target/" />
@@ -107,29 +94,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CompletableFutureDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/CompletableFutureDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-620">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/DemoApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -280,46 +245,7 @@
           <expand>
             <path>
               <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -410,7 +336,6 @@
       <list>
         <option value="$PROJECT_DIR$/../netty-4.1/testsuite-osgi" />
         <option value="$PROJECT_DIR$/../netty-4.1/codec-dns" />
-        <option value="$PROJECT_DIR$/zookeeper-demo" />
         <option value="$PROJECT_DIR$/../netty-4.1/codec-socks" />
         <option value="$PROJECT_DIR$/../netty-4.1/all" />
         <option value="$PROJECT_DIR$/../netty-4.1/codec-redis" />
@@ -448,9 +373,7 @@
         <option value="$PROJECT_DIR$/../netty-4.1/transport-native-unix-common-tests" />
         <option value="$PROJECT_DIR$/../netty-4.1/codec/src/test/resources/io/netty/handler/codec/xml" />
         <option value="$PROJECT_DIR$/../netty-4.1/handler" />
-        <option value="$PROJECT_DIR$/netty-demo" />
         <option value="$PROJECT_DIR$/../netty-4.1" />
-        <option value="$PROJECT_DIR$/thread-demo" />
       </list>
     </option>
   </component>
@@ -715,7 +638,7 @@
       <workItem from="1536031521147" duration="3472000" />
       <workItem from="1536051437473" duration="45000" />
       <workItem from="1536627024250" duration="26627000" />
-      <workItem from="1536716473769" duration="346000" />
+      <workItem from="1536716473769" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="调整">
       <created>1534470787570</created>
@@ -766,7 +689,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535106716457</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="改了文件夹名字">
+      <created>1536717061856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536717061856</updated>
+    </task>
+    <task id="LOCAL-00009" summary="改了文件夹名字">
+      <created>1536717092295</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536717092295</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -802,7 +739,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225128000" />
+    <option name="totallyTimeSpent" value="225804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -816,14 +753,14 @@
       <window_info anchor="bottom" id="Run Dashboard" order="13" sideWeight="0.43017057" weight="0.516129" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.37153518" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" weight="0.22358176" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" visible="true" weight="0.8064516" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.38820913" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.2769744" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Remote Host" order="9" weight="0.32995737" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31449893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31449893" />
       <window_info id="Database" order="7" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -881,7 +818,8 @@
     <MESSAGE value="netty demo" />
     <MESSAGE value="zookeeper demo" />
     <MESSAGE value="thread-demo&#10;jvm-demo&#10;mq-demo&#10;proxy-demo&#10;reflect-demo&#10;serializable-demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread-demo&#10;jvm-demo&#10;mq-demo&#10;proxy-demo&#10;reflect-demo&#10;serializable-demo" />
+    <MESSAGE value="改了文件夹名字" />
+    <option name="LAST_COMMIT_MESSAGE" value="改了文件夹名字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1557,7 +1495,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited />
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1569,7 +1507,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
