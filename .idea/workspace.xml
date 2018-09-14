@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="">
+    <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="增加设计模式模块-观察者模式">
       <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/observer/demo1/WeatherData.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/strategy/StrategyPattern.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/DemoTest.java" afterDir="false" />
@@ -948,7 +948,7 @@
       <workItem from="1536823512523" duration="3446000" />
       <workItem from="1536831274169" duration="619000" />
       <workItem from="1536887002118" duration="9938000" />
-      <workItem from="1536906796428" duration="6677000" />
+      <workItem from="1536906796428" duration="6825000" />
     </task>
     <task id="LOCAL-00001" summary="调整">
       <created>1534470787570</created>
@@ -1048,7 +1048,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536748197441</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加设计模式模块-观察者模式">
+      <created>1536922217399</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536922217400</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1084,10 +1091,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273195000" />
+    <option name="totallyTimeSpent" value="273343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.57063407" />
@@ -1108,7 +1116,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="13" sideWeight="0.43017057" weight="0.516129" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.24471635" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" visible="true" weight="0.2914349" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" visible="true" weight="0.37486094" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.34927696" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32995737" />
@@ -1167,7 +1175,8 @@
     <MESSAGE value="thread-demo&#10;jvm-demo&#10;mq-demo&#10;proxy-demo&#10;reflect-demo&#10;serializable-demo" />
     <MESSAGE value="改了文件夹名字" />
     <MESSAGE value="增加设计模式模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加设计模式模块" />
+    <MESSAGE value="增加设计模式模块-观察者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加设计模式模块-观察者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
