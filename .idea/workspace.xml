@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/observer/demo1/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/strategy/StrategyPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo1/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo1/RedheadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/fly/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/fly/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/DesignPatternApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/test/java/com/example/DesignPatternApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
     <ignored path="$PROJECT_DIR$/../netty-4.1/target/" />
@@ -90,27 +99,117 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.20.36" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.20.36" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design-pattern/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="840">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignPatternApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/DesignPatternApplication.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-demo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="CompletableFuture.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/CompletableFuture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="236">
+              <caret line="1982" column="21" selection-start-line="1982" selection-start-column="21" selection-end-line="1982" selection-end-column="21" />
+              <folding>
+                <element signature="e#69562#69563#0" expanded="true" />
+                <element signature="e#69619#69620#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompletableFutureDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/CompletableFutureDemo.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/DemoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyPattern.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/strategy/StrategyPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-188">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Supplier.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/function/Supplier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/observer/demo1/WeatherData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,27 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/testThread/MyThreadWithExtends.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/me/LockDemo.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/thread/lock/MyInterruptibly.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/main/java/com/example/mythread/pool/TestPool.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/ThreadDemo.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/LockDemo.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/CompletableFutureTest.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/CompletableFutureDemo.java" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/zookeeper-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/thread-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/extend/MallardDuck.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/extend/RedheadDuck.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/extend/Duck.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/demo1/RedheadDuck.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/RedheadDuck.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/RedheadDuck.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/Duck.java" />
-        <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/DecoyDuck.java" />
         <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/RubberDuck.java" />
         <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/Duck.java" />
         <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/Flyable.java" />
@@ -200,6 +278,27 @@
         <option value="$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/Test.java" />
         <option value="$PROJECT_DIR$/design-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/DesignPatternApplication.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo1/RedheadDuck.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo3/Duck.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo4/Flyable.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo5/fly/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo6/Test.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/D.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_6.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_7.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_8.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_9.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_11.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_13.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_15.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console.sql" />
+        <option value="$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/DemoTest.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/strategy/StrategyPattern.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/observer/demo1/WeatherData.java" />
       </list>
     </option>
   </component>
@@ -263,56 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Local Unit Tests">
           <expand>
@@ -406,6 +455,153 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -422,7 +618,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,6 +632,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (1)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/design-pattern/.mvn" />
@@ -448,19 +646,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example" />
-      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\network_transmission\sticky_dismantling_bag\problem" />
-      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\stickingAndUnpacking" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.demo" />
       <recent name="com.example" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.demo" />
-      <recent name="com.example.demo.JBossMarshalling" />
-      <recent name="com.example.demo.mytest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\code\demo-project\thread-demo\src\test\java\com\example" />
@@ -468,6 +656,16 @@
       <recent name="D:\Workspace\code\demo-project\thread-demo\src\test\java\com\example\design\demo6" />
       <recent name="D:\Workspace\code\demo-project\thread-demo\src\test\java\com\example\design\demo5" />
       <recent name="D:\Workspace\code\demo-project\thread-demo\src\test\java\com\example\design\demo4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+      <recent name="com.example.demo.JBossMarshalling" />
+      <recent name="com.example.demo.mytest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example" />
+      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\network_transmission\sticky_dismantling_bag\problem" />
+      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\stickingAndUnpacking" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -534,9 +732,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.StrategyPattern">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="StrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.strategy.StrategyPattern" />
+      <module name="design-pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.design.demo6.Test" />
@@ -552,57 +761,11 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CompletableFutureDemo.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.CompletableFutureDemo" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CompletableFutureDemo.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.CompletableFutureDemo" />
-      <option name="METHOD_NAME" value="test7" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="CompletableFutureDemo.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -625,7 +788,7 @@
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -634,6 +797,29 @@
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.CompletableFutureDemo" />
       <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DemoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -659,16 +845,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="netty" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="netty-demo" />
@@ -713,19 +889,19 @@
       <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication (3)" />
-      <item itemvalue="JUnit.CompletableFutureDemo.test6" />
-      <item itemvalue="JUnit.CompletableFutureDemo.test7" />
       <item itemvalue="JUnit.CompletableFutureDemo.test8" />
       <item itemvalue="JUnit.CompletableFutureDemo.test9" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.DemoTest.test" />
+      <item itemvalue="Application.StrategyPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPattern" />
+        <item itemvalue="JUnit.DemoTest.test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.CompletableFutureDemo.test9" />
         <item itemvalue="JUnit.CompletableFutureDemo.test8" />
-        <item itemvalue="JUnit.CompletableFutureDemo.test7" />
-        <item itemvalue="JUnit.CompletableFutureDemo.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -766,7 +942,13 @@
       <workItem from="1536031521147" duration="3472000" />
       <workItem from="1536051437473" duration="45000" />
       <workItem from="1536627024250" duration="26627000" />
-      <workItem from="1536716473769" duration="16243000" />
+      <workItem from="1536716473769" duration="16341000" />
+      <workItem from="1536799609706" duration="10915000" />
+      <workItem from="1536822935786" duration="477000" />
+      <workItem from="1536823512523" duration="3446000" />
+      <workItem from="1536831274169" duration="619000" />
+      <workItem from="1536887002118" duration="9938000" />
+      <workItem from="1536906796428" duration="6677000" />
     </task>
     <task id="LOCAL-00001" summary="调整">
       <created>1534470787570</created>
@@ -859,25 +1041,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536748012152</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="增加设计模式模块">
+      <created>1536748197441</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536748197441</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompletableFutureDemo_test8 - 2018.09.11 at 17h 37m 39s.xml">
-      <configuration name="CompletableFutureDemo.test8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompletableFutureDemo_test8 - 2018.09.11 at 17h 38m 14s.xml">
-      <configuration name="CompletableFutureDemo.test8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompletableFutureDemo_test8 - 2018.09.11 at 17h 38m 48s.xml">
-      <configuration name="CompletableFutureDemo.test8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompletableFutureDemo_test8 - 2018.09.11 at 17h 38m 55s.xml">
-      <configuration name="CompletableFutureDemo.test8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompletableFutureDemo_test8 - 2018.09.11 at 17h 44m 57s.xml">
-      <configuration name="CompletableFutureDemo.test8" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CompletableFutureDemo_test8 - 2018.09.11 at 17h 45m 15s.xml">
       <configuration name="CompletableFutureDemo.test8" configurationId="JUnit" />
     </history-entry>
@@ -893,9 +1067,24 @@
     <history-entry file="CompletableFutureDemo_test9 - 2018.09.11 at 18h 34m 19s.xml">
       <configuration name="CompletableFutureDemo.test9" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DemoTest_test - 2018.09.14 at 14h 54m 17s.xml">
+      <configuration name="DemoTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoTest_test - 2018.09.14 at 14h 54m 38s.xml">
+      <configuration name="DemoTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoTest_test - 2018.09.14 at 14h 55m 52s.xml">
+      <configuration name="DemoTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoTest_test - 2018.09.14 at 15h 15m 30s.xml">
+      <configuration name="DemoTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoTest_test - 2018.09.14 at 15h 16m 05s.xml">
+      <configuration name="DemoTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241025000" />
+    <option name="totallyTimeSpent" value="273195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -907,31 +1096,33 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Remote Host" order="9" weight="0.32995737" />
       <window_info id="Designer" order="2" />
-      <window_info id="Database" order="7" weight="0.32995737" />
+      <window_info id="Database" order="7" weight="0.24840085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" x="22" y="429" width="1876" height="251" id="Debug" order="3" sideWeight="0.5010661" side_tool="true" weight="0.6551724" />
+      <window_info anchor="bottom" x="22" y="429" width="1876" height="251" id="Debug" order="3" sideWeight="0.5010661" side_tool="true" weight="0.45828697" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4989339" weight="0.32925472" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="13" sideWeight="0.43017057" weight="0.516129" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" weight="0.2914349" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.24471635" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.45842218" visible="true" weight="0.2914349" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.2769744" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.34927696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
-      <window_info id="ZooKeeper" order="8" weight="0.26119402" />
+      <window_info anchor="bottom" id="Database Console" order="11" visible="true" weight="0.25472748" />
+      <window_info anchor="bottom" id="SQL Generator" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="ZooKeeper" order="8" weight="0.26119402" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32814237" />
     </layout>
   </component>
@@ -1006,420 +1197,347 @@
     <option name="tooltip" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/demo1/RedheadDuck.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo1/Duck.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="332">
+          <caret line="37" column="72" lean-forward="true" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/MallardDuck.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/RedheadDuck.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/RubberDuck.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="472">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/RedheadDuck.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_4.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="35" column="101" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_6.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_7.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/MallardDuck.java">
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/t_base_unit_history.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/DecoyDuck.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_10.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_11.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_12.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/t_base_unit_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/t_base_unit">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_14.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_13.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/tp_upb_building">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/tp_upb_building_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/tp_upb_room">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/tp_upb_room_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_15.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_16.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/tp_house_user_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/tp_house_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_9.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/Quackable.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_8.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/RedheadDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.example.design.demo4.DecoyDuck">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.example.design.demo4.DecoyDuck</OriginalElement>
-          <nodes>
-            <node x="" y="">com.example.design.demo4.RedheadDuck</node>
-            <node x="" y="">com.example.design.demo4.Quackable</node>
-            <node x="" y="">com.example.design.demo4.Flyable</node>
-            <node x="" y="">com.example.design.demo4.RubberDuck</node>
-            <node x="" y="">com.example.design.demo4.DecoyDuck</node>
-            <node x="" y="">com.example.design.demo4.Duck</node>
-            <node x="" y="">com.example.design.demo4.MallardDuck</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="329.0" y="126.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/DecoyDuck.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_17.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state>
+          <caret selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo2/Duck.java">
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/t_parkinfo_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/t_parkinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_18.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="20" />
+        <state>
+          <caret selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/t_car_part_info_rt">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_bigdata3/table/t_car_part_info_rt_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_19.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_unitpropertybase/table/t_upb_doorcontrol">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_unitpropertybase/table/t_upb_doorcontrol_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console_20.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_unitpropertybase/table/t_upb_visibletalk">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2ddbd9d-382f-4e81-8976-6dd0527877e3/schema/db_unitpropertybase/table/t_upb_visibletalk_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2ddbd9d-382f-4e81-8976-6dd0527877e3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="1982" column="21" selection-start-line="1982" selection-start-column="21" selection-end-line="1982" selection-end-column="21" />
           <folding>
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#69562#69563#0" expanded="true" />
+            <element signature="e#69619#69620#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/fly/FlyNoWay.java">
+    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/demo/CompletableFutureDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/fly/FlyWithWings.java">
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/test/java/com/example/demo/DemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="320">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="27" />
           <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/fly/FlyBehavior.java">
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/strategy/StrategyPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/quack/MuteQuack.java">
+    <entry file="jar://D:/Program Files/Develop/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="50">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/quack/Squeak.java">
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/observer/demo1/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="140">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#205#206#0" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/DecoyDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/quack/Quack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/RubberDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/RubberDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/RedheadDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/quack/QuackBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/D:/Workspace/code/demo-project/thread-demo/src/test/java/com/example/design/demo5/quack">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/quack</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.example.design.demo5.DecoyDuck">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.example.design.demo5.DecoyDuck</OriginalElement>
-          <nodes>
-            <node x="" y="">com.example.design.demo5.fly.FlyBehavior</node>
-            <node x="" y="">com.example.design.demo5.fly.FlyWithWings</node>
-            <node x="" y="">com.example.design.demo5.Duck</node>
-            <node x="" y="">com.example.design.demo5.fly.FlyNoWay</node>
-            <node x="" y="">com.example.design.demo5.RubberDuck</node>
-            <node x="" y="">com.example.design.demo5.DecoyDuck</node>
-            <node x="" y="">com.example.design.demo5.quack.Squeak</node>
-            <node x="" y="">com.example.design.demo5.quack.MuteQuack</node>
-            <node x="" y="">com.example.design.demo5.MallardDuck</node>
-            <node x="" y="">com.example.design.demo5.quack.Quack</node>
-            <node x="" y="">com.example.design.demo5.RedheadDuck</node>
-            <node x="" y="">com.example.design.demo5.quack.QuackBehavior</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.1" x="44.40909090909091" y="109.18181818181816" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/quack/QuackBehavior.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/quack/Squeak.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/quack/Quack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/fly/FlyNoWay.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/fly/FlyWithWings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/fly/FlyRocketPowered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/duck/DecoyDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/duck/MallardDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/duck/RedheadDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/duck/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/design/demo1/Duck.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/Flyable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/duck/ModelDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/MallardDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo3/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo5/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/duck/RubberDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo4/MallardDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-demo/src/test/java/com/example/design/demo6/fly/FlyBehavior.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/DesignPatternApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>

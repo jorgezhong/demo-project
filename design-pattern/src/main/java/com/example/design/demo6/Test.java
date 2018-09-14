@@ -1,9 +1,9 @@
 package com.example.design.demo6;
 
 import com.example.design.demo6.duck.Duck;
-import com.example.design.demo6.duck.MallardDuck;
 import com.example.design.demo6.duck.ModelDuck;
 import com.example.design.demo6.fly.FlyRocketPowered;
+import com.example.design.demo6.quack.Squeak;
 
 /**
  * Project <demo-project>
@@ -14,14 +14,12 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Duck mallardDuck = new MallardDuck();
-        mallardDuck.performFly();
-        mallardDuck.performQuack();
 
         Duck modelDuck = new ModelDuck();
         modelDuck.performQuack();
         modelDuck.performFly();
 
+        modelDuck.setQuackBehavior(new Squeak());
         modelDuck.setFlyBehavior(new FlyRocketPowered());
 
         modelDuck.performFly();

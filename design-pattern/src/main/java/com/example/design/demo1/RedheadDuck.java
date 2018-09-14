@@ -6,7 +6,6 @@ package com.example.design.demo1;
  */
 public class RedheadDuck extends Duck {
 
-
     @Override
     public void display() {
         System.out.println("外观：红头");
