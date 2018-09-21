@@ -1,4 +1,4 @@
-package com.example.observer.demo1;
+package com.example.observer.demo3.subject;
 
 /**
  * Project <demo-project>
@@ -9,7 +9,7 @@ package com.example.observer.demo1;
  *  - 没有封装改变的部分。这里改变的部分就是布告板式改变的
  *
  */
-public class WeatherData {
+public class WeatherData implements Subject {
 
 
     public String getTemperature(){
@@ -45,4 +45,18 @@ public class WeatherData {
 
     }
 
+    @Override
+    public void registerObserver() {
+
+    }
+
+    @Override
+    public void removeObserver() {
+
+    }
+
+    @Override
+    public void notifyObserver() {
+
+    }
 }
