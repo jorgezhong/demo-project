@@ -6,20 +6,26 @@ package com.example.command.demo1;
  */
 public class Stereo {
 
-    public void on() {
+    private String description;
 
+    public Stereo(String description) {
+        this.description = description;
+    }
+
+    public void on() {
+        System.out.println(description + "Stereo on");
     }
 
     public void off() {
-
+        System.out.println(description + "Stereo off");
     }
 
     public void setCD(){
-
+        System.out.println(description + "Stereo set CD");
     }
 
-    public void setVolume(int number){
-
+    public void setVolume(int volume){
+        System.out.println(description + "Stereo set volume is " + volume);
     }
 
 }

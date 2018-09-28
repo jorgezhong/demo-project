@@ -19,6 +19,4 @@ public class Light {
     public void off() {
         System.out.println(description + " off");
     }
-
-
 }
