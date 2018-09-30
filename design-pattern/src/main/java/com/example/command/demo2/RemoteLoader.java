@@ -1,4 +1,4 @@
-package com.example.command.demo1;
+package com.example.command.demo2;
 
 /**
  * Project <demo-project>
@@ -27,10 +27,15 @@ public class RemoteLoader {
         StereoOnWithCDComand stereoOnWithCDComand = new StereoOnWithCDComand(livingRoomStereo);
         StereoOffWithCDComand stereoOffWithCDComand = new StereoOffWithCDComand(livingRoomStereo);
 
+        //提供开关宏命令
+        MacroCommand partyOn = new MacroCommand(new Command[]{livingRoomLightOn, kitchenLightOn});
+        MacroCommand partyOff = new MacroCommand(new Command[]{livingRoomLightOff, kitchenLightOff});
+
         //3、封装命令到Invoker协调者
         remoteControl.setCommand(0,livingRoomLightOn,livingRoomLightOff);
         remoteControl.setCommand(1,kitchenLightOn,kitchenLightOff);
         remoteControl.setCommand(2,stereoOnWithCDComand,stereoOffWithCDComand);
+        remoteControl.setCommand(3,partyOn,partyOff);
 
         System.out.println(remoteControl);
 
@@ -47,6 +52,10 @@ public class RemoteLoader {
 
         remoteControl.onButtonWasPushed(2);
         remoteControl.offButtonWasPushed(2);
+
+        //执行宏命令
+        remoteControl.onButtonWasPushed(3);
+        remoteControl.offButtonWasPushed(3);
 
     }
 

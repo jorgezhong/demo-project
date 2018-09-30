@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf4528c0-8415-48ad-8a6c-5cac7ffdbb35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOffWithCDComand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControlWithUndo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteControlWithUndo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/StereoOffWithCDComand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/StereoOnWithCDComand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOnCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/NoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/NoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Stereo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOffWithCDComand.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOffWithCDComand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOnWithCDComand.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOnWithCDComand.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/netty-demo/target/" />
     <ignored path="$PROJECT_DIR$/../netty-4.1/target/" />
@@ -119,7 +133,82 @@
     <favorites_list name="demo-project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Command.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Light.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Light.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="LightOffCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/LightOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="LightOnCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/LightOnCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MacroCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/MacroCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="28" />
+              <folding>
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteControl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteControlWithUndo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteControlWithUndo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteLoader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StereoOffWithCDComand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/StereoOffWithCDComand.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="StereoOnWithCDComand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/StereoOnWithCDComand.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,10 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/Sauce.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/ny/ThinCrustDough.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/ny/MarinaraSauce.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/ny/ReggianoCheese.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/ny/Garlic.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/ny/Onion.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/ny/Mushroom.java" />
@@ -199,16 +284,20 @@
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo0/Client.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo0/Receiver.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo0/RemoteControl.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Command.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOffCommand.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOnCommand.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOnWithCDComand.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Light.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Stereo.java" />
-        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/NoCommand.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Command.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOffCommand.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControlWithUndo.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOnWithCDComand.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOffWithCDComand.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/NoCommand.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteLoader.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/MacroCommand.java" />
+        <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteLoader.java" />
       </list>
     </option>
   </component>
@@ -272,6 +361,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -288,6 +430,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Local Unit Tests">
           <expand>
@@ -381,92 +524,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="demo0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,19 +553,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.factory.demo2.material.ny" />
-      <recent name="com.example.factory.demo2.factory" />
-      <recent name="com.example.factory.demo2.material" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example" />
+      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\network_transmission\sticky_dismantling_bag\problem" />
+      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\stickingAndUnpacking" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example" />
       <recent name="com.example.demo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example" />
-      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\network_transmission\sticky_dismantling_bag\problem" />
-      <recent name="D:\Workspace\code\demo-project\netty-demo\src\main\java\com\example\stickingAndUnpacking" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\command\demo2" />
+      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\factory\demo2\store" />
+      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\factory\demo2\material\chicago" />
+      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\factory\demo1" />
+      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\decorator\demo0" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.command.demo1" />
@@ -517,12 +576,10 @@
       <recent name="com.example.factory.demo2.factory" />
       <recent name="com.example.factory.demo1.pizza" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\factory\demo2\store" />
-      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\factory\demo2\material\chicago" />
-      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\factory\demo1" />
-      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\decorator\demo0" />
-      <recent name="D:\Workspace\code\demo-project\design-pattern\src\main\java\com\example\observer\demo6" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.factory.demo2.material.ny" />
+      <recent name="com.example.factory.demo2.factory" />
+      <recent name="com.example.factory.demo2.material" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -589,7 +646,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoteLoader">
+  <component name="RunManager" selected="Application.RemoteLoader (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -604,6 +661,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="RemoteLoader (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.command.demo2.RemoteLoader" />
+      <module name="design-pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.command.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.command.demo1.RemoteLoader" />
       <module name="design-pattern" />
@@ -611,17 +679,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.command.demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.observer.demo6.Test" />
-      <module name="design-pattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.observer.demo6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -710,19 +767,19 @@
       <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication (3)" />
-      <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.PizzaStoreDrive" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.RemoteLoader" />
+      <item itemvalue="Application.RemoteLoader (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteLoader (1)" />
         <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.PizzaStoreDrive" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -777,7 +834,8 @@
       <workItem from="1537837481973" duration="5975000" />
       <workItem from="1537928482454" duration="3581000" />
       <workItem from="1538009914287" duration="8456000" />
-      <workItem from="1538097997331" duration="7239000" />
+      <workItem from="1538097997331" duration="7300000" />
+      <workItem from="1538269815323" duration="4497000" />
     </task>
     <task id="LOCAL-00001" summary="调整">
       <created>1534470787570</created>
@@ -905,7 +963,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538025181165</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="增加命令模式">
+      <created>1538120046094</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1538120046094</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -941,11 +1006,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371093000" />
+    <option name="totallyTimeSpent" value="375651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.57063407" />
@@ -965,11 +1029,11 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.43017057" weight="0.516129" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.45842218" weight="0.8409344" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.7074527" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.45842218" visible="true" weight="0.83982205" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.35150167" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" weight="0.7519466" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944383" visible="true" weight="0.38006395" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944383" visible="true" weight="0.38432837" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Favorites" order="6" sideWeight="0.5005562" side_tool="true" weight="0.26807564" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -984,7 +1048,7 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.43017057" weight="0.516129" />
+      <window_info anchor="bottom" x="22" y="429" width="1876" height="251" id="Debug" order="3" sideWeight="0.5021322" side_tool="true" weight="0.38820913" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Remote Host" order="9" weight="0.24093817" />
@@ -1018,7 +1082,7 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32814237" />
       <window_info anchor="bottom" id="SQL Generator" order="13" weight="0.32925472" />
-      <window_info anchor="bottom" x="22" y="429" width="1876" height="251" id="Debug" order="3" sideWeight="0.5021322" side_tool="true" weight="0.38820913" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.43017057" weight="0.516129" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1095,320 +1159,6 @@
     <option name="tooltip" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo1/factory/SimplePizzaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo1/factory/ChicagoPizzaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/material/MarinaraSauce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.example.factory.demo2.material.SlicedPepperoni">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.example.factory.demo2.material.SlicedPepperoni</OriginalElement>
-          <nodes>
-            <node x="" y="">com.example.factory.demo2.material.Spinach</node>
-            <node x="" y="">com.example.factory.demo2.factory.ChicagoPizzaIngredientFactory</node>
-            <node x="" y="">com.example.factory.demo2.material.Garlic</node>
-            <node x="" y="">com.example.factory.demo2.pizza.PepperoniPizza</node>
-            <node x="" y="">com.example.factory.demo2.material.Mozzarelle</node>
-            <node x="" y="">com.example.factory.demo2.factory.NYPizzaIngredientFactory</node>
-            <node x="" y="">com.example.factory.demo2.material.Dough</node>
-            <node x="" y="">com.example.factory.demo2.store.ChicagoStylePizzaStore</node>
-            <node x="" y="">com.example.factory.demo2.material.Clams</node>
-            <node x="" y="">com.example.factory.demo2.material.Veggies</node>
-            <node x="" y="">com.example.factory.demo2.material.Onion</node>
-            <node x="" y="">com.example.factory.demo2.pizza.CheesePizza</node>
-            <node x="" y="">com.example.factory.demo2.material.SlicedPepperoni</node>
-            <node x="" y="">com.example.factory.demo2.material.MarinaraSauce</node>
-            <node x="" y="">com.example.factory.demo2.material.FrozenClams</node>
-            <node x="" y="">com.example.factory.demo2.factory.PizzaIngredientFactory</node>
-            <node x="" y="">com.example.factory.demo2.material.ReggianoCheese</node>
-            <node x="" y="">com.example.factory.demo2.material.Sauce</node>
-            <node x="" y="">com.example.factory.demo2.material.RedPepper</node>
-            <node x="" y="">com.example.factory.demo2.material.Mushroom</node>
-            <node x="" y="">com.example.factory.demo2.pizza.ClamPizza</node>
-            <node x="" y="">com.example.factory.demo2.store.PizzaStore</node>
-            <node x="" y="">com.example.factory.demo2.material.FreshClams</node>
-            <node x="" y="">com.example.factory.demo2.material.Blackolives</node>
-            <node x="" y="">com.example.factory.demo2.pizza.VeggiePizza</node>
-            <node x="" y="">com.example.factory.demo2.material.PlumTomatoSauce</node>
-            <node x="" y="">com.example.factory.demo2.pizza.Pizza</node>
-            <node x="" y="">com.example.factory.demo2.material.ThickCrustDough</node>
-            <node x="" y="">com.example.factory.demo2.material.Pepperoni</node>
-            <node x="" y="">com.example.factory.demo2.material.Eggplant</node>
-            <node x="" y="">com.example.factory.demo2.material.ThinCrustDough</node>
-            <node x="" y="">com.example.factory.demo2.store.NYStylePizzaStore</node>
-            <node x="" y="">com.example.factory.demo2.material.Cheese</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1471.0" y="1103.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/.mvn/CurrentConditionDisplay.png" />
-    <entry file="uml://JAVA/com.example.factory.demo2.factory.NYPizzaIngredientFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.example.factory.demo2.factory.NYPizzaIngredientFactory</OriginalElement>
-          <nodes>
-            <node x="0.0" y="1104.0">com.example.factory.demo2.material.Spinach</node>
-            <node x="0.0" y="793.0">com.example.factory.demo2.factory.ChicagoPizzaIngredientFactory</node>
-            <node x="749.0" y="1104.0">com.example.factory.demo2.material.Garlic</node>
-            <node x="0.0" y="418.0">com.example.factory.demo2.pizza.PepperoniPizza</node>
-            <node x="368.0" y="1261.0">com.example.factory.demo2.material.Mozzarelle</node>
-            <node x="262.0" y="793.0">com.example.factory.demo2.factory.NYPizzaIngredientFactory</node>
-            <node x="995.5" y="1013.0">com.example.factory.demo2.material.Dough</node>
-            <node x="549.0" y="697.0">com.example.factory.demo2.store.ChicagoStylePizzaStore</node>
-            <node x="786.5" y="1180.0">com.example.factory.demo2.material.Clams</node>
-            <node x="368.0" y="1013.0">com.example.factory.demo2.material.Veggies</node>
-            <node x="117.0" y="1104.0">com.example.factory.demo2.material.Onion</node>
-            <node x="370.0" y="418.0">com.example.factory.demo2.pizza.CheesePizza</node>
-            <node x="1004.0" y="1261.0">com.example.factory.demo2.material.SlicedPepperoni</node>
-            <node x="0.0" y="1261.0">com.example.factory.demo2.material.MarinaraSauce</node>
-            <node x="695.0" y="1261.0">com.example.factory.demo2.material.FrozenClams</node>
-            <node x="131.0" y="568.0">com.example.factory.demo2.factory.PizzaIngredientFactory</node>
-            <node x="501.0" y="1261.0">com.example.factory.demo2.material.ReggianoCheese</node>
-            <node x="113.25" y="1180.0">com.example.factory.demo2.material.Sauce</node>
-            <node x="615.0" y="1104.0">com.example.factory.demo2.material.RedPepper</node>
-            <node x="223.0" y="1104.0">com.example.factory.demo2.material.Mushroom</node>
-            <node x="740.0" y="418.0">com.example.factory.demo2.pizza.ClamPizza</node>
-            <node x="666.5" y="568.0">com.example.factory.demo2.store.PizzaStore</node>
-            <node x="841.0" y="1261.0">com.example.factory.demo2.material.FreshClams</node>
-            <node x="359.0" y="1104.0">com.example.factory.demo2.material.Blackolives</node>
-            <node x="1110.0" y="418.0">com.example.factory.demo2.pizza.VeggiePizza</node>
-            <node x="160.0" y="1261.0">com.example.factory.demo2.material.PlumTomatoSauce</node>
-            <node x="629.0" y="0.0">com.example.factory.demo2.pizza.Pizza</node>
-            <node x="877.0" y="1094.0">com.example.factory.demo2.material.ThickCrustDough</node>
-            <node x="1022.0" y="1180.0">com.example.factory.demo2.material.Pepperoni</node>
-            <node x="493.0" y="1104.0">com.example.factory.demo2.material.Eggplant</node>
-            <node x="1052.0" y="1094.0">com.example.factory.demo2.material.ThinCrustDough</node>
-            <node x="784.0" y="697.0">com.example.factory.demo2.store.NYStylePizzaStore</node>
-            <node x="454.0" y="1180.0">com.example.factory.demo2.material.Cheese</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.example.factory.demo2.material.Mushroom" target="com.example.factory.demo2.material.Veggies">
-              <point x="0.0" y="-15.5" />
-              <point x="281.0" y="1084.0" />
-              <point x="402.2857142857143" y="1084.0" />
-              <point x="-13.714285714285722" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.factory.NYPizzaIngredientFactory" target="com.example.factory.demo2.factory.PizzaIngredientFactory">
-              <point x="0.0" y="-87.5" />
-              <point x="383.0" y="768.0" />
-              <point x="312.5" y="768.0" />
-              <point x="60.5" y="87.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.PlumTomatoSauce" target="com.example.factory.demo2.material.Sauce">
-              <point x="0.0" y="-15.5" />
-              <point x="241.5" y="1236.0" />
-              <point x="177.0" y="1236.0" />
-              <point x="21.25" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.store.NYStylePizzaStore" target="com.example.factory.demo2.store.PizzaStore">
-              <point x="0.0" y="-27.5" />
-              <point x="891.5" y="672.0" />
-              <point x="827.75" y="672.0" />
-              <point x="53.75" y="39.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.Eggplant" target="com.example.factory.demo2.material.Veggies">
-              <point x="0.0" y="-15.5" />
-              <point x="544.0" y="1084.0" />
-              <point x="429.7142857142857" y="1084.0" />
-              <point x="13.714285714285722" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.pizza.CheesePizza" target="com.example.factory.demo2.pizza.Pizza">
-              <point x="0.0" y="-52.5" />
-              <point x="545.0" y="398.0" />
-              <point x="704.75" y="398.0" />
-              <point x="-25.25" y="184.0" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.ThinCrustDough" target="com.example.factory.demo2.material.Dough">
-              <point x="0.0" y="-15.5" />
-              <point x="1126.5" y="1069.0" />
-              <point x="1063.0" y="1069.0" />
-              <point x="22.5" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.factory.ChicagoPizzaIngredientFactory" target="com.example.factory.demo2.factory.PizzaIngredientFactory">
-              <point x="0.0" y="-87.5" />
-              <point x="121.0" y="768.0" />
-              <point x="191.5" y="768.0" />
-              <point x="-60.5" y="87.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.store.ChicagoStylePizzaStore" target="com.example.factory.demo2.store.PizzaStore">
-              <point x="0.0" y="-27.5" />
-              <point x="656.5" y="672.0" />
-              <point x="720.25" y="672.0" />
-              <point x="-53.75" y="39.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.MarinaraSauce" target="com.example.factory.demo2.material.Sauce">
-              <point x="0.0" y="-15.5" />
-              <point x="70.0" y="1236.0" />
-              <point x="134.5" y="1236.0" />
-              <point x="-21.25" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.SlicedPepperoni" target="com.example.factory.demo2.material.Pepperoni">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.pizza.VeggiePizza" target="com.example.factory.demo2.pizza.Pizza">
-              <point x="0.0" y="-52.5" />
-              <point x="1285.0" y="388.0" />
-              <point x="805.75" y="388.0" />
-              <point x="75.75" y="184.0" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.ThickCrustDough" target="com.example.factory.demo2.material.Dough">
-              <point x="0.0" y="-15.5" />
-              <point x="954.5" y="1069.0" />
-              <point x="1018.0" y="1069.0" />
-              <point x="-22.5" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.pizza.ClamPizza" target="com.example.factory.demo2.pizza.Pizza">
-              <point x="0.0" y="-52.5" />
-              <point x="915.0" y="398.0" />
-              <point x="755.25" y="398.0" />
-              <point x="25.25" y="184.0" />
-            </edge>
-            <edge source="com.example.factory.demo2.pizza.PepperoniPizza" target="com.example.factory.demo2.pizza.Pizza">
-              <point x="0.0" y="-52.5" />
-              <point x="175.0" y="388.0" />
-              <point x="654.25" y="388.0" />
-              <point x="-75.75" y="184.0" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.FreshClams" target="com.example.factory.demo2.material.Clams">
-              <point x="0.0" y="-15.5" />
-              <point x="900.0" y="1236.0" />
-              <point x="850.25" y="1236.0" />
-              <point x="21.25" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.Blackolives" target="com.example.factory.demo2.material.Veggies">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.Mozzarelle" target="com.example.factory.demo2.material.Cheese">
-              <point x="0.0" y="-15.5" />
-              <point x="424.5" y="1236.0" />
-              <point x="477.0" y="1236.0" />
-              <point x="-23.0" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.ReggianoCheese" target="com.example.factory.demo2.material.Cheese">
-              <point x="0.0" y="-15.5" />
-              <point x="575.5" y="1236.0" />
-              <point x="523.0" y="1236.0" />
-              <point x="23.0" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.Spinach" target="com.example.factory.demo2.material.Veggies">
-              <point x="0.0" y="-15.5" />
-              <point x="48.5" y="1064.0" />
-              <point x="374.8571428571429" y="1064.0" />
-              <point x="-41.14285714285711" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.Onion" target="com.example.factory.demo2.material.Veggies">
-              <point x="0.0" y="-15.5" />
-              <point x="160.0" y="1074.0" />
-              <point x="388.57142857142856" y="1074.0" />
-              <point x="-27.428571428571445" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.Garlic" target="com.example.factory.demo2.material.Veggies">
-              <point x="0.0" y="-15.5" />
-              <point x="790.5" y="1064.0" />
-              <point x="457.1428571428571" y="1064.0" />
-              <point x="41.14285714285711" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.FrozenClams" target="com.example.factory.demo2.material.Clams">
-              <point x="0.0" y="-15.5" />
-              <point x="758.0" y="1236.0" />
-              <point x="807.75" y="1236.0" />
-              <point x="-21.25" y="15.5" />
-            </edge>
-            <edge source="com.example.factory.demo2.material.RedPepper" target="com.example.factory.demo2.material.Veggies">
-              <point x="0.0" y="-15.5" />
-              <point x="672.0" y="1074.0" />
-              <point x="443.42857142857144" y="1074.0" />
-              <point x="27.428571428571445" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="535.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/.mvn/NYPizzaIngredientFactory.png" />
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo1/store/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo1/pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo1/store/NYStylePizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/pizza/VeggiePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo1/store/ChicagoStylePizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo1/pizza/CheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/factory/demo2/factory/ChicagoPizzaIngredientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1679,114 +1429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Light.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Stereo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOffCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOnCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOnWithCDComand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/NoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOffWithCDComand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.example.command.demo1.Command">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1806,15 +1448,190 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="33.0" y="149.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="33.0" y="150.0" />
           <SelectedNodes />
           <Categories>
+            <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Methods</Category>
-            <Category>Fields</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOnWithCDComand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Stereo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/StereoOffWithCDComand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/NoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteControlWithUndo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding>
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo1/RemoteLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="6" selection-start-line="6" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/NoCommand.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Stereo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/StereoOffWithCDComand.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Command.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/Light.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/StereoOnWithCDComand.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteControlWithUndo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/MacroCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="28" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/example/command/demo2/RemoteLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="15" />
         </state>
       </provider>
     </entry>

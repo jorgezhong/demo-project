@@ -1,4 +1,4 @@
-package com.example.command.demo1;
+package com.example.command.demo2;
 
 /**
  * Project <demo-project>
