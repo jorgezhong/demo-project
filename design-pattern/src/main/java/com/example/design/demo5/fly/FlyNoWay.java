@@ -1,7 +1,7 @@
 package com.example.design.demo5.fly;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 13:23.
  */
 public class FlyNoWay implements FlyBehavior {

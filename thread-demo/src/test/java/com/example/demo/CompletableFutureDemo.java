@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/8 11:45.
  */
 public class CompletableFutureDemo {

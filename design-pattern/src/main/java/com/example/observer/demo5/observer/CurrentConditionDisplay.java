@@ -7,7 +7,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/18 9:32.
  */
 public class CurrentConditionDisplay implements Observer, DisplayElement {

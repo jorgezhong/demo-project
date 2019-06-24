@@ -3,12 +3,10 @@ package com.example.demo;
 import org.junit.Test;
 
 import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/8/31 16:01.
  */
 public class ThreadDemo {
@@ -61,11 +59,12 @@ public class ThreadDemo {
     /**
      * 这种实现是由返回值的
      */
-    class CallableThread implements Callable<String>{
+    class  CallableThread implements Callable<String>{
 
         @Override
         public String call() {
             // TODO: 2018/8/31
+            System.out.println("test");
             return "";
         }
     }

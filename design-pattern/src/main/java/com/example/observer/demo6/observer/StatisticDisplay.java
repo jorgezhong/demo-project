@@ -4,7 +4,7 @@ import com.example.observer.demo6.DisplayElement;
 import com.example.observer.demo6.subject.Subject;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/18 9:32.
  */
 public class StatisticDisplay implements Observer, DisplayElement {

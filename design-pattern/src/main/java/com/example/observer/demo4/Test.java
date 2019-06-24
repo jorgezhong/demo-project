@@ -6,7 +6,7 @@ import com.example.observer.demo4.observer.StatisticDisplay;
 import com.example.observer.demo4.subject.WeatherData;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/18 10:01.
  */
 public class Test {

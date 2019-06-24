@@ -4,7 +4,7 @@ import com.example.factory.demo2.factory.ChicagoPizzaIngredientFactory;
 import com.example.factory.demo2.pizza.*;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/20 10:23.
  */
 public class ChicagoStylePizzaStore extends PizzaStore {

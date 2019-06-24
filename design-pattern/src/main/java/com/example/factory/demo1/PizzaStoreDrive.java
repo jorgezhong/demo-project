@@ -6,7 +6,7 @@ import com.example.factory.demo1.store.ChicagoStylePizzaStore;
 import com.example.factory.demo1.store.NYStylePizzaStore;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/20 16:19.
  */
 public class PizzaStoreDrive {

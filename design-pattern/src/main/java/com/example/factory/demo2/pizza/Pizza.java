@@ -5,7 +5,7 @@ import com.example.factory.demo2.material.*;
 import java.util.Arrays;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/21 10:31.
  *
  * 顶层产品抽象类：pizza，依赖一系列原材料种类

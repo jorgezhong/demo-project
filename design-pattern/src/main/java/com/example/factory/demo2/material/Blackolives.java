@@ -1,7 +1,7 @@
 package com.example.factory.demo2.material;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/21 10:15.
  */
 public class Blackolives extends Veggies {

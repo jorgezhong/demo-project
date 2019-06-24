@@ -1,7 +1,7 @@
 package com.example.command.demo0;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/26 10:26.
  *
  * 命令模式的Invoker:调用者对象，调用者传递命令

@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooKeeper;
 
 import java.io.IOException;
@@ -8,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/8/24 13:56.
  */
 public class DistributedClient {

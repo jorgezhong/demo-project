@@ -1,7 +1,7 @@
 package com.example.command.demo0;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/26 10:47.
  * <p>
  * client:命令模式的客户，客户通过Invoker设置命令

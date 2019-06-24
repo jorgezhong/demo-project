@@ -1,7 +1,7 @@
 package com.example.decorator.demo1;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/18 15:57.
  */
 public class ConcreteDecoratorB extends Decorator {

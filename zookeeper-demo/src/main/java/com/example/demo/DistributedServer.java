@@ -8,7 +8,7 @@ import org.apache.zookeeper.ZooKeeper;
 import java.io.IOException;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/8/24 13:38.
  */
 public class DistributedServer {

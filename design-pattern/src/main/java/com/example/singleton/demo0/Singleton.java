@@ -1,7 +1,7 @@
 package com.example.singleton.demo0;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/25 9:42.
  * <p>
  * 经典单例模式

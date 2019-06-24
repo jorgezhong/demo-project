@@ -3,7 +3,7 @@ package com.example.observer.demo6.subject;
 import com.example.observer.demo6.observer.Observer;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/14 16:48.
  * <p>
  * demo1:违反了设计原则
@@ -28,9 +28,7 @@ public class WeatherData implements Subject {
      * 新的测量数据备好后会被调用
      */
     public void measurementsChanged() {
-
         notifyObserver();
-
     }
 
 
@@ -40,6 +38,4 @@ public class WeatherData implements Subject {
         this.pressure = pressure;
         measurementsChanged();
     }
-
-
 }

@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.function.Consumer;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/13 15:52.
  */
 public class DemoTest {

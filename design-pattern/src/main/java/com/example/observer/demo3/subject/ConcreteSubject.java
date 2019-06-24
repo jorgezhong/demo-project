@@ -1,7 +1,7 @@
 package com.example.observer.demo3.subject;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/18 9:16.
  */
 public class ConcreteSubject implements Subject {

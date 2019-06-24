@@ -1,7 +1,7 @@
 package com.example.design.demo4;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 11:20.
  */
 public class RubberDuck extends Duck implements Quackable {

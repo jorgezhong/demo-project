@@ -4,7 +4,7 @@ import com.example.design.demo6.fly.FlyNoWay;
 import com.example.design.demo6.quack.Quack;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 14:54.
  */
 public class ModelDuck extends Duck {

@@ -9,7 +9,7 @@ import com.example.decorator.demo2.decorator.Soy;
 import com.example.decorator.demo2.decorator.Whip;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/18 16:31.
  */
 public class Test {

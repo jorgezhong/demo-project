@@ -4,7 +4,7 @@ import com.example.design.demo5.fly.FlyNoWay;
 import com.example.design.demo5.quack.Squeak;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 11:20.
  */
 public class RubberDuck extends Duck {

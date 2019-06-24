@@ -1,7 +1,7 @@
 package com.example.observer.demo5;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/18 9:31.
  *
  *

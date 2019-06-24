@@ -1,7 +1,7 @@
 package com.example.design.demo2;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 10:41.
  * <p>
  * demo1之后增加需求：让鸭子会飞

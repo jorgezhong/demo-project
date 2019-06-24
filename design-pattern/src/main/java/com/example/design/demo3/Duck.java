@@ -1,7 +1,7 @@
 package com.example.design.demo3;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 10:41.
  * <p>
  * demo2之后扩展需求：

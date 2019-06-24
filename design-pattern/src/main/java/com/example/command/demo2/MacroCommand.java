@@ -1,7 +1,7 @@
 package com.example.command.demo2;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/30 9:47.
  */
 public class MacroCommand implements Command {

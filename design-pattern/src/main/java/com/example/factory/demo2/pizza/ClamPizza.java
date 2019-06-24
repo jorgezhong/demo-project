@@ -3,7 +3,7 @@ package com.example.factory.demo2.pizza;
 import com.example.factory.demo2.factory.PizzaIngredientFactory;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/21 11:24.
  *
  * 具体产品(product)的子接口决定使用什么工厂，并且组合哪些原材料

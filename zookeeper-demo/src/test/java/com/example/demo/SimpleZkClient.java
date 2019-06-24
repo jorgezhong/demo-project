@@ -13,7 +13,7 @@ import java.util.List;
 import static org.apache.zookeeper.ZooDefs.*;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/8/24 11:09.
  */
 public class SimpleZkClient {

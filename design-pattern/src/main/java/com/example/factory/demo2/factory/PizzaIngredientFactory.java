@@ -3,7 +3,7 @@ package com.example.factory.demo2.factory;
 import com.example.factory.demo2.material.*;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/21 10:01.
  *
  * 顶层原材料工厂：

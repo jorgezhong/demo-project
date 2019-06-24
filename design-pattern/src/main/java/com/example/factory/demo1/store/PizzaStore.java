@@ -4,7 +4,7 @@ import com.example.factory.demo1.factory.SimplePizzaFactory;
 import com.example.factory.demo1.pizza.Pizza;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/20 9:01.
  */
 public abstract class PizzaStore {

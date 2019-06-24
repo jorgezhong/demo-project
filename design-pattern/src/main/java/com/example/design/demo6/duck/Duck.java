@@ -4,7 +4,7 @@ import com.example.design.demo6.fly.FlyBehavior;
 import com.example.design.demo6.quack.QuackBehavior;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 10:41.
  * <p>
  * demo5之后拓展：

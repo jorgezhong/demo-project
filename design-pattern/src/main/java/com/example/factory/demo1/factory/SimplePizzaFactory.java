@@ -3,7 +3,7 @@ package com.example.factory.demo1.factory;
 import com.example.factory.demo1.pizza.*;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/20 9:03.
  * 定义工厂
  */

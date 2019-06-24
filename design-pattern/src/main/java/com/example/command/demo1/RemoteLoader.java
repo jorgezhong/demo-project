@@ -1,7 +1,7 @@
 package com.example.command.demo1;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/27 11:22.
  */
 public class RemoteLoader {

@@ -6,7 +6,7 @@ import com.example.design.demo6.fly.FlyRocketPowered;
 import com.example.design.demo6.quack.Squeak;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/12 14:57.
  */
 public class Test {

@@ -3,7 +3,7 @@ package com.example.strategy;
 import java.util.function.Consumer;
 
 /**
- * Project <demo-project>
+ * Project <demo1-project>
  * Created by jorgezhong on 2018/9/14 15:32.
  */
 public class StrategyPattern {
