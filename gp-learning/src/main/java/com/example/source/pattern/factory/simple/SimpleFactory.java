@@ -1,4 +1,9 @@
-package com.example.source.pattern.factory;
+package com.example.source.pattern.factory.simple;
+
+import com.example.source.pattern.factory.Mengniu;
+import com.example.source.pattern.factory.Milk;
+import com.example.source.pattern.factory.Telunsu;
+import com.example.source.pattern.factory.Yili;
 
 /**
  * Project <demo-project>
